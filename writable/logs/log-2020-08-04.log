@@ -1,0 +1,58 @@
+CRITICAL - 2020-08-04 04:29:30 --> Invalid file: pages/landing.php
+#0 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/landing.p...')
+#1 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pages/landing', Array, true)
+#2 C:\xampp\htdocs\pgnapp\app\Controllers\Pages.php(12): view('pages/landing', Array)
+#3 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pgnapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-04 04:30:08 --> Undefined property: App\Controllers\Login::$load
+#0 C:\xampp\htdocs\pgnapp\app\Controllers\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#2 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pgnapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-04 04:48:46 --> Invalid file: login_page.php
+#0 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_page.php')
+#1 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login_page', Array, true)
+#2 C:\xampp\htdocs\pgnapp\app\Controllers\Login.php(20): view('login_page', Array)
+#3 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pgnapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-04 04:50:02 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\pgnapp\app\Views\pages\login_page.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pages/login_pag...', Array, true)
+#3 C:\xampp\htdocs\pgnapp\app\Controllers\Login.php(20): view('pages/login_pag...', Array)
+#4 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pgnapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-04 04:54:20 --> Undefined variable: validation
+#0 C:\xampp\htdocs\pgnapp\app\Views\pages\login_page.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pages/login_pag...', Array, true)
+#3 C:\xampp\htdocs\pgnapp\app\Controllers\Login.php(20): view('pages/login_pag...', Array)
+#4 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pgnapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-04 05:03:03 --> Undefined property: App\Controllers\Login::$input
+#0 C:\xampp\htdocs\pgnapp\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->loginValidate()
+#2 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pgnapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pgnapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
